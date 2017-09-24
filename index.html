@@ -35,7 +35,8 @@
 			    <nav id="navbar-1" class="navbar item-nav">
 				    <ul>
 				        <li class="active"><a href="#about">About</a></li>
-				        <li><a href="#experiences">Experiences</a></li>
+				        <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
 				        <li><a href="#achievements">Achievements</a></li>
 				        <li><a href="#skills">Skills</a></li>
 				    </ul>
@@ -67,46 +68,60 @@
 					<h2><b><span id="typed"></span></b></h2>
 				</div>
 				<p>
-					I will be graduating in May 2016 with a Bachelors Degree in Electronics and Instrumentation. I worked on many interesting things ranging from Robotics to Building Websites to Building Smart Homes to Building a CPU Emulator. My technical interests include Computer Architecture and Artificial Intelligence. I love watching Football and Cricket. I like to read books and watch movies in my free time.
+					I work in the CPU Development team at Nvidia Graphics. I graduated in June 2016 with a Bachelors Degree in Electronics and Instrumentation from BITS-Pilani, India. I worked on many interesting things ranging from Building CPUs to Robotics to Building Websites to Building Smart Homes to Building Emulators. My technical interests include Computer Architecture and Artificial Intelligence. I am very passionate about technology and love watching Football and Cricket. I like to read books and binge TV shows in my free time.
 				</p>
 			</div>
 		</div>
 	</div>
 
 	<!-- Work Experience -->
-	<div class="work section second" id="experiences">
+	<div class="work section second" id="experience">
 		<div class="container">
-			<h1>Work<br>Experiences</h1>
+			<h1>Work<br>Experience</h1>
       <ul class="work-list">
 				<li><a href="#">Nvidia</a></li>
 				<li>Banglore, India</li>
-				<li>Jan 2016 - Present</li>
-				<li>Intern, CPU Verfication team</li>
+				<li>July 2016 - Present</li>
+				<li>ASIC Engineer, CPU Development team</li>
+        <li><b>-></b>Worked on Functional Verfication of the Load Store Unit and the Data Cache Controller of the Carmel CPU</li>
+        <li><b>-></b>Currently working on the Carmel CPU Bringup</li>
+			</ul>
+      <ul class="work-list">
+				<li><a href="#">Nvidia</a></li>
+				<li>Banglore, India</li>
+				<li>Jan 2016 - June 2016</li>
+				<li>Intern, CPU Development team</li>
+        <li><b>-></b>Worked on Functional Verfication of the Core Debug Interface Module of the Carmel CPU</li>
 			</ul>
 			<ul class="work-list">
 				<li><a href="#">Google Summer of Code 2015</a></li>
 				<li>May 2015 - August 2015</li>
 				<li>Developer at LowRISC</li>
-        <li>Built a CPU Emulator for RISC-V</li>
+        <li><b>-></b>Built an ultra fast RISC-V CPU emulator for the web</li>
+        <li><b>-></b>The emulator boots Linux successfully, provides a web interface to test the
+compiled binaries and provides a demo file system with some major tools</li>
 			</ul>
 			<ul class="work-list">
 				<li><a href="#">Institute for Research in Computer Science and Automation (INRIA)</a></li>
 				<li>Rennes, France</li>
 				<li>May 2015 - July 2015</li>
 				<li>Summer Research Intern</li>
-        <li>Worked on Simulating Heterogeneous Multicore Architectures in gem5</li>
+        <li><b>-></b>Worked in the Energy Efficient Computing Architecture Team</li>
+        <li><b>-></b>Worked on Simulating Heterogeneous Multicore Architectures in gem5</li>
 			</ul>
 			<ul class="work-list">
 				<li><a href="#">Google Summer of Code 2014</a></li>
 				<li>May 2014 - August 2014</li>
 				<li>Developer at LyX</li>
-        <li>Built a Roundtrip converter from LyX to ODT</li>
+        <li><b>-></b>Built a Roundtrip converter from LyX to ODT</li>
+        <li><b>-></b>Unlike normal export, in this case a similar LyX file should result if the exported ODT file is imported back into LyX</li>
 			</ul>
 			<ul class="work-list">
 				<li><a href="#">Madras Atomic Power Station</a></li>
 				<li>Kalpakkam, India</li>
 				<li>May 2014 - July 2014</li>
 				<li>Summer Intern</li>
+        <li><b>-></b>Designed a new Programmable Logic Controller(PLC) based system to upgrade the existing Relay based system in the Heavy Water Upgradation Plant</li>
         <li></li>
 			</ul>
 			<ul class="work-list">
@@ -114,7 +129,62 @@
 				<li>Hyderabad, India</li>
 				<li>May 2013 - July 2013</li>
 				<li>Summer Intern</li>
+        <li><b>-></b>Wrote a couple of scripts in Java and Python to automate many manual processes</li>
+        <li><b>-></b>Did some work on Data Analysis using Python</li>
 			</ul>
+		</div>
+	</div>
+
+  <div class="work section second" id="projects">
+		<div class="container">
+			<h1>Projects</h1>
+      <ul class="work-list">
+				<li><a href="#">Improving Cache Efficiency</a></li>
+				<li>Jan 2015 - May 2015</li>
+        <li><b>-></b>Worked on increasing the performance of Line Distillation Cache and Amoeba Cache</li>
+        <li><b>-></b>Worked on Non-Uniform Cache Architectures for multi-core processors and explored different block placement and block migration techniques.</li>
+        <li><b>-></b>Explored gem5 and Sniper Simulators</li>
+			</ul>
+      <ul class="work-list">
+				<li><a href="#">Working with FPGA and Vivado</a></li>
+				<li>Aug 2014 - Nov 2014</li>
+        <li><b>-></b>Understood the basics of FPGA</li>
+        <li><b>-></b>Used the Xilinx Zynq ZC706 Board</li>
+        <li><b>-></b>Implemented basic design flows in Vivado</li>
+			</ul>
+      <ul class="work-list">
+				<li><a href="#">Project Smartlab</a></li>
+				<li>Sept 2012 - March 2014</li>
+        <li><b>-></b>Worked on building Intelligent and Context Aware Home Automation systems</li>
+        <li><b>-></b>Built an interactive context aware home environment which can recognize voice, gestures
+and objects to act as an interface between Humans and the Hardware. (Kinect/PandaBoard/Arduino/NLP/ObjectRecognition/WebInterface)</li>
+        <li><b>-></b>Built an automated Security Solution for Workspaces. (EntryExitCounter/PandaBoard/FacialRecognition/WebInterface)</li>
+        <li><b>-></b>Built a smart lighting system which turns the lighting on/off in the rooms based on Human presence</li>
+			</ul>
+      <ul class="work-list">
+        <li><a href="#">Misc Software Projects</a></li>
+        <li>Aug 2013 - April 2014</li>
+        <li><b>-></b>Built a Chrome Extension to make preference process easier for Internship Applications. Got over 2000 downloads</li>
+        <li><b>-></b>Built a website to bring Entrepreneurs, Investors, Startup Enthusiasts onto a single platform. Helps in co-founder search, job/internship search, fund raising, mentoring for startups. Built using Ruby on Rails</li>
+        <li><b>-></b>Built a portal to make Inter City Cab Sharing easier. Built using Ruby on Rails</li>
+        <li><b>-></b>Built a basic ERP Solution for Schools. Built using Ruby on Rails</li>
+        <li><b>-></b>Implemented a flow in Java and Python to make sending mass mails/posting on facebook easier for organizations</li>
+        <li><b>-></b>Implemented an interface to make it easier to scrape listings from websites</li>
+        <li><b>-></b>Built a basic voice based personal assistant for Linux workstations</li>
+      </ul>
+      <ul class="work-list">
+        <li><a href="#">Project Robocon</a></li>
+        <li>Sept 2012 - March 2013</li>
+        <li><b>-></b>Was part of a team representing BITS-Pilani in ABU Robocon India 2013</li>
+        <li><b>-></b>Built two robots, Manual and Automatic which pick up objects using Robotic arms and place them in appropriate slots</li>
+      </ul>
+      <ul class="work-list">
+        <li><a href="#">Misc Robots</a></li>
+        <li>July 2012 - April 2013</li>
+        <li><b>-></b>Built a PID based Line Follower using Arduino</li>
+        <li><b>-></b>Built a Grid Solver Robot using Atmega16</li>
+        <li><b>-></b>Built two robots where one detects IR emitted by the other one and always follows it. Used Atmega16</li>
+      </ul>
 		</div>
 	</div>
 
@@ -203,7 +273,7 @@
     <script>
 		function newTyped(){}$(function(){$("#typed").typed({
 		// Change to edit type effect
-		strings: ["I study at BITS-Pilani", "Grew up in Hyderabad", "Programming Enthusiast"],
+		strings: ["I work at Nvidia", "BITS-Pilani Grad", "Programming Enthusiast"],
 
 		typeSpeed:70,backDelay:1000,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
     </script>
